@@ -58,7 +58,6 @@ header{
     background-color:#00008b ;
     height: 300px;
     padding-top: 50px;
-    margin-bottom: 25px;
     
 }
 
@@ -87,7 +86,13 @@ header{
 
 .sfondo{
     background-color:#d3d3d3 ;
-    margin:25px 0 ;
+    align-items: center;  
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.no_sfondo{
+    background-color:#ffffff ;
     align-items: center;  
     padding-bottom: 25px;
     padding-top: 25px;
@@ -122,7 +127,6 @@ header{
 
  .sfondo_final{
     background-color: #23272a;
-    margin:25px 0 ;
     padding-bottom: 25px;
     padding-top: 25px;
 }
@@ -131,6 +135,26 @@ header{
     border: 1px dotted white;
     height: 400px ;
 }
+
+
+.end{
+    background-color:#7fffd4 ;
+     padding: 5px 0;
+     display: flex;
+}
+
+ .logo_final, .registrazione{
+    background-color: #ffb6c1;
+    margin:10px 0;
+    
+}
+
+.registrazione{
+    text-align: end;
+
+}
+
+
 
 /* DIVISIONI IN COLONNE */
 .col-1{
