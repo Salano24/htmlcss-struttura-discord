@@ -5,7 +5,7 @@
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     max-width: 1200px;
     margin: auto;
 }
@@ -58,7 +58,7 @@ header{
     background-color:#00008b ;
     height: 300px;
     padding-top: 50px;
-    
+    margin-bottom: 25px;
     
 }
 
@@ -85,10 +85,52 @@ header{
     background-color: #ffc0cb;
 }
 
-.server, .chat_vocale, .canali_privati{
-    margin-top:30px ;
+.sfondo{
+    background-color:#d3d3d3 ;
+    margin:25px 0 ;
+    align-items: center;  
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
+
+.videocall{
+    background-color:#228b22 ;
+    text-align: center;
+    height: 600px;
+    border: 1px dotted black ;
+}
+
+.nav_final{
+    background-color: #23272a;
+    border: 1px dotted black ;
+    text-align: center;
+
+ }
+
+ .social, .approfondimenti{
+    height: 400px;
+ }
+
+ .social{
+    background-color:#f08080 ;
+ }
+
+ .approfondimenti{
+    background-color: #20b2aa;
+ }
+
+ .sfondo_final{
+    background-color: #23272a;
+    margin:25px 0 ;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.prodotto, .compagnia, .risorse, .norme{
+    border: 1px dotted white;
+    height: 400px ;
+}
 
 /* DIVISIONI IN COLONNE */
 .col-1{
