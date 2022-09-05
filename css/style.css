@@ -69,10 +69,26 @@ header{
     padding-top: 50px;
     border: 1px dotted black ;
 
-    
-    
+}
+
+.img, .text{
+    height:300px ;
+    border: 1px dotted black ;
 
 }
+
+.img{
+    background-color: #1e90ff;
+}
+
+.text{
+    background-color: #ffc0cb;
+}
+
+.server, .chat_vocale, .canali_privati{
+    margin-top:30px ;
+}
+
 
 /* DIVISIONI IN COLONNE */
 .col-1{
