@@ -20,13 +20,16 @@
 .row{
         display: flex;
         flex-wrap: wrap;
+    
 }
+
 
 .logo{
    background-color: #daa520;
    border: 1px dotted black ;
-   padding: 0.3rem 0;
+   padding: 0.3rem ;
    margin: 0.3rem 0;
+   
 }
 
 .nav{
@@ -40,15 +43,35 @@
  .login{
     background-color: #daa520;
     border: 1px dotted black ;
-    padding: 0.3rem 0;
+    padding: 0.3rem ;
     margin: 0.3rem 0;
-    justify-content: flex-end;
+    text-align: end;
 
  }
 
 header{
     background-color: #add8e6 ;
     height: 40px;
+}
+
+.title{
+    background-color:#00008b ;
+    height: 300px;
+    padding-top: 50px;
+    
+    
+}
+
+.presentazione{
+    background-color:#ee82ee ;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    border: 1px dotted black ;
+
+    
+    
+
 }
 
 /* DIVISIONI IN COLONNE */
